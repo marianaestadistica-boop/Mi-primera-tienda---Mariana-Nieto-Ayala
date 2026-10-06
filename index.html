@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi tienda</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="nike-banner">
+    <div class="nike-content">
+
+      <span class="nike-tag">NIKE</span>
+
+      <h1>Compra tus tenis Nike</h1>
+
+      <p>Corre. Entrena. Muévete. Hazlo a tu manera.</p>
+
+      <a href="#" class="nike-button">COMPRAR AHORA</a>
+
+      <div class="owner">
+        Tienda de <strong>Mariana Nieto Ayala</strong>
+      </div>
+
+    </div>
+  </div>
+
+  <style>
+    .nike-banner {
+      background: #000000;
+      color: #ffffff;
+      padding: 55px 30px;
+      margin-bottom: 30px;
+      border-radius: 16px;
+      text-align: center;
+    }
+
+    .nike-content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .nike-tag {
+      display: block;
+      color: #e30613;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 5px;
+      margin-bottom: 12px;
+    }
+
+    .nike-banner h1 {
+      color: #ffffff !important;
+      font-size: 42px !important;
+      font-weight: 800;
+      margin: 0 0 12px 0;
+      text-transform: uppercase;
+      letter-spacing: -1px;
+    }
+
+    .nike-banner p {
+      color: #dddddd !important;
+      font-size: 18px;
+      margin: 0 0 28px 0;
+    }
+
+    .nike-button {
+      display: inline-block;
+      background-color: #ffffff;
+      color: #111111 !important;
+      padding: 13px 28px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: bold;
+      transition: all 0.2s ease;
+    }
+
+    .nike-button:hover {
+      background-color: #e30613;
+      color: #ffffff !important;
+      transform: scale(1.05);
+    }
+
+    .owner {
+      margin-top: 25px;
+      color: #999999;
+      font-size: 13px;
+      letter-spacing: 0.5px;
+    }
+
+    .owner strong {
+      color: #ffffff;
+    }
+  </style>
+
+  <style>
+    .nike-banner {
+      background: #000000;
+      color: #ffffff;
+      padding: 55px 30px;
+      margin-bottom: 30px;
+      border-radius: 16px;
+      text-align: center;
+    }
+
+    .nike-content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .nike-tag {
+      display: block;
+      color: #e30613;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 5px;
+      margin-bottom: 12px;
+    }
+
+    .nike-banner h1 {
+      color: #ffffff !important;
+      font-size: 42px !important;
+      font-weight: 800;
+      margin: 0 0 12px 0;
+      text-transform: uppercase;
+      letter-spacing: -1px;
+    }
+
+    .nike-banner p {
+      color: #dddddd !important;
+      font-size: 18px;
+      margin: 0 0 28px 0;
+    }
+
+    .nike-button {
+      display: inline-block;
+      background-color: #ffffff;
+      color: #111111 !important;
+      padding: 13px 28px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: bold;
+      transition: all 0.2s ease;
+    }
+
+    .nike-button:hover {
+      background-color: #e30613;
+      color: #ffffff !important;
+      transform: scale(1.05);
+    }
+  </style>
+
+  <style>
+    .nike-banner {
+      background: linear-gradient(135deg, #000000 0%, #171717 70%, #e5002b 100%);
+      color: #ffffff;
+      padding: 55px 40px;
+      border-radius: 18px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+    }
+
+    .nike-content {
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .nike-tag {
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 4px;
+      color: #e5002b;
+    }
+
+    .nike-banner h1 {
+      font-size: 42px;
+      margin: 12px 0 10px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: -1px;
+    }
+
+    .nike-banner p {
+      font-size: 18px;
+      margin-bottom: 28px;
+      color: #eeeeee;
+    }
+
+    .nike-button {
+      display: inline-block;
+      background: #ffffff;
+      color: #000000;
+      padding: 13px 28px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .nike-button:hover {
+      background: #e5002b;
+      color: #ffffff;
+      transform: scale(1.05);
+    }
+  </style>
+
+  <p class="slogan">
+    Sabores del mundo a un clic de distancia 🌎
+  </p>
+
+  <div class="beneficios">
+    <span>🚚 Envíos en Bogotá</span>
+    <span>🔒 Compra segura</span>
+    <span>📦 Seguimiento de pedido</span>
+  </div>
+
+  <div id="productos"></div>
+
+  <div class="carrito">
+    <h2>🧾 Carrito de Compras</h2>
+
+    <ul id="lista-carrito"></ul>
+
+    <div class="resumen">
+      <p>
+        Envío: <strong>Gratis</strong>
+      </p>
+
+      <p class="total">
+        Total: $<span id="total">0</span>
+      </p>
+    </div>
+
+    <button class="vaciar" onclick="vaciarCarrito()">
+      🧼 Vaciar Carrito
+    </button>
+
+    <button class="finalizar" onclick="finalizarCompra()">
+      ✅ Finalizar Compra
+    </button>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
